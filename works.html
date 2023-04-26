@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kallux Works</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap js -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+
+  <style>
+    body{
+      background-color: #f0f8f8;
+      width:100%;
+    }
+
+    #top-div{
+      width:100%;
+      padding:20px 0;
+      background-color: #fff;
+      border-bottom-right-radius: 20%;
+      border-bottom-left-radius: 20%;
+    }
+    #image-3{
+        position:absolute;
+        width:4%;
+        right:16%;
+        top:14.3%;
+    }
+
+    h1{
+      padding:10px 0;
+    width:100%;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Sacramento", cursive;
+    color: #66BFBF;
+}
+h2{
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size:35px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+p{
+  margin:0;
+  line-height: 2;
+  text-align: left;
+  width:90%;
+}
+
+/* images */
+
+#designer0{
+  width:60px;
+  position:absolute;
+  right:40%;
+  top:40%;
+  transform: rotate(50deg);
+}
+#designer1{
+  width:100px;
+  position:absolute;
+  left:30%;
+  top:700px;
+  transform: rotate(-40deg);
+}
+#designer2{
+  width:40px;
+  position:absolute;
+  right:20%;
+  top:1300px;
+  transform: rotate(-40deg);
+  padding-bottom:300px;
+}
+
+
+#work-discreption1{
+  width:50%;
+  position:relative;
+  top:300px;
+  left:100px;
+}
+#work-discreption2{
+  width:50%;
+  position:relative;
+  top:750px;
+  right:10px;
+  left:50%;
+}
+
+    #carouselExampleInterval1{
+      position:absolute;
+      right:100px;
+      width:300px;
+      margin:100px 0px;
+
+    }
+
+    #carouselExampleInterval2{
+      position:absolute;
+      left:100px;
+      width:300px;
+      margin:550px 0px 20px;
+
+    }
+
+    /* Contact Me Button */
+
+
+    .btn {
+        background: #2BC4AD;
+         background-image: -webkit-linear-gradient(top, #2BC4AD,#13c9ad );
+        background-image: -moz-linear-gradient(top, #2BC4AD, #13c9ad);
+        background-image: -ms-linear-gradient(top, #2BC4AD, #13c9ad);
+        background-image: -o-linear-gradient(top, #2BC4AD, #13c9ad);
+        background-image: linear-gradient(to bottom, #2BC4AD, #13c9ad);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 25px;
+        padding: 15px 25px 15px 25px;
+        text-decoration: none;
+        position:absolute;
+        left:40%;
+       top:1600px;
+        cursor: pointer;
+      }
+  .btn:hover {
+    background: #12a1a1;
+    background-image: -webkit-linear-gradient(top, #12a1a1, #13c9ad);
+    background-image: -moz-linear-gradient(top, #12a1a1, #13c9ad);
+    background-image: -ms-linear-gradient(top, #12a1a1, #13c9ad);
+    background-image: -o-linear-gradient(top, #12a1a1, #13c9ad);
+    background-image: linear-gradient(to bottom, #12a1a1, #13c9ad);
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  #bottom-h1{
+    font-size:40px;
+    margin:150px 0;
+  }
+    /* Botoom section */
+
+
+    #bottom{
+        padding-top:95%;
+        width:100%;
+        position: relative;
+    }
+    #Astro{
+        position:absolute;
+        z-index: 1;
+        width:10%;
+        right:35%;
+        top: 110%;
+        transform: rotate(-60deg);
+    }
+    #Earth{
+        position:absolute;
+        width:15%;
+        left:30%;
+        top:112%;
+    }
+    #Venus{
+        position:absolute;
+        width:7%;
+        left:15%;
+        top:110%;
+    }
+    #Moon{
+        width:40%;
+        position:absolute;
+        top:111%;
+        right:10%;
+
+    }
+
+
+    @media (max-width:992px){
+h1{
+  font-size:80px;
+}
+      h2{
+        text-align: center;
+    font-size:50px;
+}
+p{
+  text-align: center;
+  font-size: 30px;
+  margin: 25px 0 25px 25px;
+}
+#image-3{
+        top:20.5%;
+    }
+    #designer0{
+      top:40%;
+    }
+
+    #work-discreption1{
+      width:50%;
+      position:relative;
+      top:300px;
+      left:25%;
+    }
+    #work-discreption2{
+      width:50%;
+      position:relative;
+      top:1100px;
+      right:10px;
+      left:25%;
+    }
+
+    #designer1{
+      width:100px;
+      position:absolute;
+      left:45%;
+      top:234%;
+      transform: rotate(0deg);
+    }
+
+
+
+      #carouselExampleInterval1{
+        top:150%;
+      right:35%;
+      width:300px;
+      margin:50px 0px;
+    }
+
+    #carouselExampleInterval2{
+      left:35%;
+      width:300px;
+      margin:1200px 0px 20px;
+    }
+
+    #designer2{
+      width:40px;
+      position:absolute;
+      left:30%;
+      top:2700px;
+      transform: rotate(-40deg);
+      padding-bottom:300px;
+    }
+
+    .btn{
+      top:3000px;
+      font-size: 25px;
+      padding: 15px 25px 15px 25px;
+    }
+    #bottom-h1{
+      font-size:45px;
+      margin:300px 0 100px;
+    }
+    #bottom{
+        margin-top:110%;
+        width:100%;
+        position: relative;
+    }
+
+    }
+
+  </style>
+
+
+</head>
+<body>
+
+  <div id="top-div">
+<h1>Some of my side skills.</h1>
+<img id="image-3" src="images/bird(1).png" alt="blue-bird">
+  </div>
+<div id="work-discreption1">
+  <h2>Business Cards.</h2>
+  <p> I design oreginal business cards. So I send you the card as a file (pdf) so you can use it directly, or edit it as you wish. For more information contact me. </p>
+</div>
+
+  <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="images/Screenshot 2023-04-10 193128 111 (2).png" class="d-block w-100" alt="business-card-desing" >
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="images/Screenshot 2023-04-10 172304 12.png" class="d-block w-100" alt="business-card-desing" >
+      </div>
+      <div class="carousel-item " data-bs-interval="3000">
+        <img src="images/Screenshot 2023-04-10 193449 113.png" class="d-block w-100" alt="business-card-desing">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/Screenshot 2023-04-10 193716 114.png" class="d-block w-100" alt="business-card-desing">
+      </div>
+
+
+  </div>
+</div>
+
+<img id="designer0" src="images/stationery.png" alt="designer">
+<img id="designer1" src="images/graphic-designer.png" alt="designer">
+
+
+  <img id="designer2" src="images/stationery.png">
+  <a class="btn " href="mailto:elyoussefikhalid641@email.com">CONTACT ME</a>
+    <a class="btn " href="mailto:elyoussefikhalid641@email.com">CONTACT ME</a>
+
+
+<div id="work-discreption2">
+  <h2>Thanking for purshasing Cards.</h2>
+  <p>  I design thnak-you-for-your-pushase cards as well. So I design the cards then send it to you as a file (pdf) so you can use it directly, or edit it as you wish. For more information contact me.</p>
+</div>
+
+  <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="images/Screenshot 2023-04-10 194101 211 (2).png" class="d-block w-100" alt="thanks-card-design">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/Screenshot 2023-04-10 165842  5.png" class="d-block w-100" alt="thanks-card-desing">
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/Screenshot 2023-04-10 194336 213.png" class="d-block w-100" alt="thanks-card-desing">
+      </div>
+
+  </div>
+  </div>
+
+<!-- <section id="bottom"> -->
+
+  <section id="bottom">
+    <h1 id="bottom-h1" >How big would you dream, if you knew you couldn't fail !</h1>
+    <img id="Moon" src="images/full-moon.png" alt="the-moon">
+    <img id="Venus" src="images/venus.png" alt="Venus">
+    <img id="Earth" src="images/planet-earth.png" alt="Earth">
+    <img id="Astro" src="images/astronaut(1).png" alt="Astronaut">
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
